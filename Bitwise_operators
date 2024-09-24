@@ -1,0 +1,24 @@
+def utility():
+    a=int(input())
+    b=int(input())
+    c=int(input())
+    d = a^a
+    e = c^b
+    f = a&b
+    g = c|(a ^ a)
+    e = ~e
+    print(d,e,f,g)
+def main():
+    t=int(input())
+    while(t>0):
+        utility() 
+        t-=1
+if __name__ == "__main__": 
+    main()
+
+# Input: 
+# 1
+# 2
+# 3
+# Output: 
+# 0 -2 0 3
