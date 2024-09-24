@@ -1,0 +1,17 @@
+def utility():
+    a=int(input())
+    d=int(input())
+    n=int(input())
+    ans = a + (n-1)*d
+    print(ans)
+if __name__ == '__main__':
+    t=int(input())
+    for _ in range(t):
+        utility()
+
+# Input: 
+# 5
+# 2
+# 5
+# Output: 
+# 13
