@@ -1,0 +1,20 @@
+def utility():
+    a=int(input())
+    b=int(input())
+    p = a and b
+    q = a or b
+    r = not a
+    print(p,q,r)
+def main():
+    t=int(input())
+    while(t>0):
+        utility()
+        t-=1
+if __name__ == "__main__": 
+    main()
+
+# Input: 
+# 0
+# 2
+# Output: 
+# 0 2 True
